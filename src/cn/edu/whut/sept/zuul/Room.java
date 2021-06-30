@@ -8,17 +8,19 @@ public class Room
     private String description;
     private HashMap<String, Room> exits;
 /**
-     * 创建一个房间描述“描述”。最初，它有
-     * 没有出口。“描述”类似于“厨房”或
-     *“一个开放的庭院”。
-     * @param description 房间的描述。
+     * 创建一个房间描述“描述”
+    没有出口。“描述”类似于“厨房”
      */
     public Room(String description)
     {
         this.description = description;
         exits = new HashMap<>();
     }
-
+/**
+     * 定义这个房间的出口。
+      direction 出口的方向。
+      neighbor 出口通向的房间。
+     */
     public void setExit(String direction, Room neighbor)
     {
         exits.put(direction, neighbor);
