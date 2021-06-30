@@ -9,7 +9,6 @@ public class Room
     private HashMap<String, Room> exits;
 /**
      * 创建一个房间描述“描述”
-    没有出口。“描述”类似于“厨房”
      */
     public Room(String description)
     {
@@ -27,16 +26,13 @@ public class Room
     }
 /**
      * @return房间的简短描述
-     *（在构造函数中定义的那个）。
      */
     public String getShortDescription()
     {
         return description;
     }
  /**
-     * 在表格中返回房间的描述：
-     * 你在厨房。
-     * 出口：西北
+     * 在表格中返回房间的描述
      * @return这个房间的详细描述
      */
     public String getLongDescription()
@@ -44,8 +40,7 @@ public class Room
         return "You are " + description + ".\n" + getExitString();
     }
  /**
-     * 返回一个描述房间出口的字符串，例如
-     *“出口：西北”。
+     * 返回一个描述房间出口的字符串
      * @return房间出口的详细信息。
      */
     private String getExitString()
