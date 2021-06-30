@@ -1,4 +1,4 @@
-包 cn . 教育。什么。年9月。祖尔;
+package cn.edu.whut.sept.zuul;
 //主程序入口
 
     public static void main(String[] args) {
