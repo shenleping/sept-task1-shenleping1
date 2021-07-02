@@ -19,12 +19,19 @@
     * 在本地开发环境上运行样例工程，理解样例工程的代码逻辑；
       ![](reportpicture/2.PNG)
     * 精读样例工程软件代码，描述代码结构及部件组成；
-      1 主函数运行，创建一个Game类对象game，此时运行createRooms函数 ，调用play方法
+   
+     1 主函数运行，创建一个Game类对象game，此时运行createRooms函数 ，调用play方法
+      
       2 play运行printWelcome类，由parser类记录
+      
       3 运行parser类的getCommand方法，将用户输入的字符串命令传入变量，并将字符串中的两个单词提取出两个变量中
+      
       4 根据word1是否为空，选择将值传入不同的方法
+      
       5 执行processCommand(command)
+      
       6 将第一个单词为help 执行printhelp与showCommands方法，go执行goRoom，quit执行quit方法
+      
     * 以UML图描述样例工程的组成及结构图（类及类之间的关系）
         * 可结合markdown语法和mermaid插件绘制所需图形
           ![](reportpicture/6.PNG)
@@ -80,6 +87,7 @@
    +Room getExit
    }
 
+![](reportpicture/9.PNG)
 2. 标注样例工程中的代码
     * 基于javadoc规范标注代码，对包、类、方法、代码片段、参数和语句等代码层次进行注释（可参考Game类的标注样例）；
       ![](reportpicture/4.PNG)
