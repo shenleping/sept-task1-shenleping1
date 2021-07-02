@@ -17,6 +17,7 @@
     * fork样例工程，并clone到本地仓库；
       ![](1.PNG)
    * 在本地开发环境上运行样例工程，理解样例工程的代码逻辑；
+     ![](2.PNG)
    * 精读样例工程软件代码，描述代码结构及部件组成；
      1 主函数运行，创建一个Game类对象game，此时运行createRooms函数 ，调用play方法
      2 play运行printWelcome类，由parser类记录
